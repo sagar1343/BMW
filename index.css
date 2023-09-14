@@ -1,0 +1,184 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Exo+2:wght@600&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Exo+2:wght@600&family=Poppins:wght@200&family=Titillium+Web:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.page5 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img.profile {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 100%;
+}
+.content {
+  margin-left: 23px;
+  display: flex;
+  width: 25rem;
+  flex-direction: column;
+}
+.feelbtn {
+  display: flex;
+  justify-content: space-between;
+}
+i {
+  cursor: pointer;
+}
+.main {
+  position: relative;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+  left: 0rem;
+  right: 0;
+}
+.nav-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.nav-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-wrapper {
+  position: absolute;
+  background: whitesmoke;
+  height: 1px;
+  width: 80%;
+  top: 5.5rem;
+  left: 10%;
+}
+.nav-btn {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.banner {
+  width: 100%;
+  height: 50rem;
+}
+.banner-text {
+  font-family: "Cairo", sans-serif;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 4%;
+}
+.short-head {
+  font-weight: 800;
+}
+.head {
+  font-weight: 400;
+}
+
+.page2 {
+  margin-top: 10rem;
+}
+#showcase {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.highlights {
+  margin-top: 4rem;
+  display: flex;
+
+  justify-content: space-between;
+}
+.card-text {
+  overflow: hidden;
+}
+.card {
+  color: rgb(0, 0, 0);
+  font-family: "Titillium Web", sans-serif;
+}
+.page3 {
+  height: 25rem;
+}
+.tool-head {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  color: #464343;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head-your-bmw {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-family: "Cairo", sans-serif;
+}
+.tool {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.tool-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tool-img {
+  width: 10rem;
+}
+.tool-name {
+  font-family: "Cairo", sans-serif;
+  font-size: x-large;
+}
+
+.page4 {
+  height: 50rem;
+}
+.collection-image {
+  height: 22rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.collection {
+  font-family: "Cairo", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.collection-item1 {
+  display: flex;
+}
+.collection-item2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.borderbtn {
+  font-weight: 600;
+  border-radius: 0;
+}
+.collection-body {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.light-head {
+  font-weight: bold;
+}
+.heavy-head {
+  font-weight: 700;
+}
+.btn-width {
+  width: 14rem;
+}
