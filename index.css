@@ -182,3 +182,11 @@ nav {
 .btn-width {
   width: 14rem;
 }
+.page6 {
+  height: 45rem;
+  background-color: #292929;
+}
+.footer {
+  background: #323131;
+  font-family: "Cairo", sans-serif;
+}
